@@ -1,0 +1,69 @@
+/* global rules */
+body {
+  overflow-x: hidden;
+}
+
+.secAlign {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.secTitle h3 {
+  color: red;
+}
+
+.rightSide .section {
+  border-bottom: 3px solid #c9c9c9ab;
+}
+
+.cv {
+  max-width: 8.3in;
+  max-height: 11.7in;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
+}
+
+.expImg {
+  width: 8.3in;
+  height: 11.7in;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* leftSide start */
+.cv .leftSide {
+  background-color: #c9c9c9ab;
+  flex: 4;
+  height: 100vh;
+  position: relative;
+  padding-top: 15px;
+}
+.cv .leftSide img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.cv .leftSide .info {
+  margin: 10px 0;
+}
+
+.cv .leftSide .info span {
+  margin-left: 15px;
+}
+
+/* right side start  */
+.cv .rightSide {
+  flex: 8;
+  height: 100vh;
+  padding-top: 15px;
+  position: relative;
+  z-index: 3;
+}
